@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="spinnerTheme">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="CalendarDatePickerDialog"  parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">#E4002B</item>
+        <item name="android:textColorPrimary">#E4002B</item>
+        <item name="android:calendarTextColor">#E4002B</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Hint" parent="Theme.Design.NoActionBar">
+        <item name="android:textColorHint">#000000</item>
+        <item name="android:editTextColor">#000000</item>
+        <item name="android:textSize">@dimen/text_size</item>
+
+    </style>
+
+
+    <style name="TextAlign" parent="Theme.Design.NoActionBar">
+        <item name="android:textColor">@color/text_color_black</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:fontFamily">@fonts/GillSans</item>
+    </style>
+
+
+    //main theme
+
+    <!--//text theme bold
+
+    <style name="Text_align">
+        <item name="android:fontFamily">@fonts/GillSansStd-Bold</item>
+    </style>
+
+    //text theme bold
+-->
+
+    <style name="spindialog" parent="Theme.AppCompat">
+        ...
+        <item name="android:alertDialogTheme">@style/AppTheme.SpinnerDialog</item>
+    </style>
+    <style name="AppTheme.SpinnerDialog" parent="Theme.AppCompat.Dialog">
+        <!--
+                <item name="android:background">#E4002B</item>
+        -->
+        <item name="android:popupBackground">#E4002B</item>
+    </style>
+
+
+
+    <style name="SearchDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <!-- Used for the buttons -->
+    <item name="colorAccent">#FFC107</item>
+    <!-- Used for the title and text -->
+    <item name="android:textColorPrimary">@color/white</item>
+    <!-- Used for the background -->
+    <item name="android:background">@color/red</item>
+</style>
+
+
+    <style name="MyAlertDialogStyle1" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#FFC107</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/text_color_black</item>
+        <!-- Used for the background -->
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

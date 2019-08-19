@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.anitha.offsitefinal">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+
+
+    <application
+        android:screenOrientation="portrait"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.NoActionBar"
+
+        >
+        <activity android:name=".LogOutActivity"
+            android:noHistory="true" android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".HelpActivity"  android:theme="@style/Theme.Design.NoActionBar"
+            android:noHistory="true" android:screenOrientation="portrait"/>
+        <activity android:name=".SendFeedBack"  android:noHistory="true"  android:theme="@style/Theme.Design.NoActionBar"
+           android:screenOrientation="portrait" />
+        <activity android:name=".EPostingSheet"   android:noHistory="true"  android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>
+        <activity android:name=".EPSResultsActivity"   android:theme="@style/Theme.Design.NoActionBar"  android:screenOrientation="portrait" />
+        <activity android:name=".MapaClientActivity"  android:noHistory="true"
+            android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>
+        <activity android:name=".ScheduleVisits"   android:noHistory="true"
+            android:configChanges="keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>
+        <activity android:name=".DashboradActivity"   android:noHistory="true"  android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" android:noHistory="true" android:screenOrientation="portrait"/>
+        <activity android:name=".Checklist"
+            android:noHistory="true" android:screenOrientation="portrait"/>
+        <activity android:name=".EmployeeReportActivity"
+           android:screenOrientation="portrait"/>
+<activity android:name=".Report" android:screenOrientation="portrait"/>
+        <activity android:name=".ScheduleVisits2" android:screenOrientation="portrait" android:noHistory="true"
+            android:configChanges="keyboardHidden"
+            />
+        <activity android:name=".ChecklistTypes" android:screenOrientation="portrait" android:noHistory="true" />
+        <activity android:name=".Filter" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".Employee_Report" android:screenOrientation="portrait" />
+
+
+        <activity android:name=".DayChecklistSummary" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name=".HomeActivityMenu" android:screenOrientation="portrait" android:noHistory="true">
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tab_Main"
+            android:noHistory="true"
+            android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CheckOutActivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>
+
+        <!--<activity-->
+            <!--android:name=".App"-->
+            <!--android:noHistory="true"-->
+            <!--android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>-->
+
+        <!--
+  <activity
+            android:name=".ForgotpassActivity"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        -->
+        <activity
+            android:name=".ChangePassword"
+            android:noHistory="true"
+            android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ScannedBarcodeActivity" android:noHistory="true"
+            android:theme="@style/Theme.Design.NoActionBar" android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_margin="@dimen/margin_ten"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:weightSum="6"
+        android:padding="@dimen/padding_two"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+
+                android:textColor="@color/text_color_black"
+                android:id="@+id/without_camera_ques"
+                android:text="@string/question2"
+                android:textSize="@dimen/text_size"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margin_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <Button
+                    android:background="@drawable/daycheckliststyleno"
+                    android:textColor="@color/text_color_black"
+                    android:text="@string/button_yes"
+                    android:layout_margin="@dimen/margin_four"
+                    android:id="@+id/btn_yes2"
+                    android:textSize="11sp"
+                    android:layout_width="@dimen/width_fourty"
+                    android:layout_height="@dimen/height_fourty" />
+                <Button
+                    android:background="@drawable/daycheckliststyleno"
+                    android:textColor="@color/text_color_black"
+                    android:text="@string/button_no"
+                    android:layout_margin="@dimen/margin_four"
+                    android:id="@+id/btn_no2"
+                    android:textSize="11sp"
+                    android:layout_width="@dimen/width_fourty"
+                    android:layout_height="@dimen/height_fourty" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/edittextstyle"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:padding="5dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/text_color_black"
+                android:layout_weight="1"
+                android:id="@+id/comment_save"
+                android:maxLines="3"
+                android:focusable="false"
+                android:background="@null"
+                android:textAlignment="viewStart"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <!--  <View
+                  android:layout_width="2dp"
+                  android:layout_height="match_parent"
+                  android:background="#D3D4D5"/>-->
+           <!-- <ImageButton
+                android:background="@drawable/camera"
+                android:textColor="@color/red"
+                android:id="@+id/camera_clk1"
+                android:text="@string/button_yes"
+                android:layout_margin="@dimen/margin_four"
+                android:textSize="11sp"
+                android:layout_width="@dimen/width_fourty"
+                android:layout_height="@dimen/height_fourty" />-->
+            <ImageButton
+                android:background="@drawable/comment"
+                android:textColor="@color/red"
+                    android:id="@+id/comment"
+                android:text="@string/button_no"
+                android:layout_margin="@dimen/margin_four"
+                android:textSize="11sp"
+                android:layout_width="@dimen/width_fourty"
+                android:layout_height="@dimen/height_fourty" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+
+
+        <EditText
+            android:id="@+id/edit_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_weight="0.5"
+            android:background="@drawable/edittextstyle"
+            android:hint="Enter Comment"
+            android:maxLines="5"
+            android:textColor="#000000"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColorHint="@color/hint_grey"
+            android:theme="@style/TextAlign" />
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Submit"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

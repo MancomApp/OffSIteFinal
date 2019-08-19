@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_margin="@dimen/margin_ten"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- TextView for displaying question-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:weightSum="6"
+        android:padding="@dimen/padding_two"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/question_radio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Is there any incident reported in last one month?"
+            android:textColor="@color/text_color_black" />
+        <!-- RadioGroup for grouping of RadioButton-->
+        <RadioGroup
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_twenty"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:buttonTint="@color/text_color_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_twenty"
+                android:layout_weight="1"
+                android:text="@string/threatmissing"
+                android:textColor="@color/text_color_black" />
+            <RadioButton
+                android:buttonTint="@color/text_color_black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_twenty"
+                android:layout_weight="1"
+                android:text="@string/assetdamage"
+                android:textColor="@color/text_color_black" />
+            <RadioButton
+                android:buttonTint="@color/text_color_black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_twenty"
+                android:layout_weight="1"
+                android:text="@string/negligence"
+                android:textColor="@color/text_color_black" />
+            <RadioButton
+                android:buttonTint="@color/text_color_black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_twenty"
+                android:layout_weight="1"
+                android:text="@string/fire"
+                android:textColor="@color/text_color_black" />
+
+            <RadioButton
+                android:buttonTint="@color/text_color_black"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_twenty"
+                android:layout_weight="1"
+                android:text="@string/others_radio"
+                android:textColor="@color/text_color_black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edittextstyle"
+                android:layout_margin="@dimen/margin_twenty"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:textColor="@color/text_color_black" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>
