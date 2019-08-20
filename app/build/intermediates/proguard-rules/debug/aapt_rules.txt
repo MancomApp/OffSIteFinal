@@ -1,56 +1,56 @@
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:26
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:33
 -keep class android.support.v4.app.CoreComponentFactory { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:184
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:191
 -keep class com.android.tools.ir.server.InstantRunContentProvider { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:146
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:153
 -keep class com.anitha.offsitefinal.ChangePassword { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:129
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:136
 -keep class com.anitha.offsitefinal.CheckOutActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:83
--keep class com.anitha.offsitefinal.Checklist { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:98
--keep class com.anitha.offsitefinal.ChecklistTypes { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:74
--keep class com.anitha.offsitefinal.DashboradActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:109
--keep class com.anitha.offsitefinal.DayChecklistSummary { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:58
--keep class com.anitha.offsitefinal.EPSResultsActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:53
--keep class com.anitha.offsitefinal.EPostingSheet { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:87
--keep class com.anitha.offsitefinal.EmployeeReportActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:106
--keep class com.anitha.offsitefinal.Employee_Report { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:102
--keep class com.anitha.offsitefinal.Filter { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:43
--keep class com.anitha.offsitefinal.HelpActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:113
--keep class com.anitha.offsitefinal.HomeActivityMenu { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:37
--keep class com.anitha.offsitefinal.LogOutActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:79
--keep class com.anitha.offsitefinal.MainActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:62
--keep class com.anitha.offsitefinal.MapaClientActivity { <init>(); }
 # Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:90
+-keep class com.anitha.offsitefinal.Checklist { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:105
+-keep class com.anitha.offsitefinal.ChecklistTypes { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:81
+-keep class com.anitha.offsitefinal.DashboradActivity { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:116
+-keep class com.anitha.offsitefinal.DayChecklistSummary { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:65
+-keep class com.anitha.offsitefinal.EPSResultsActivity { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:60
+-keep class com.anitha.offsitefinal.EPostingSheet { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:94
+-keep class com.anitha.offsitefinal.EmployeeReportActivity { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:113
+-keep class com.anitha.offsitefinal.Employee_Report { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:109
+-keep class com.anitha.offsitefinal.Filter { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:50
+-keep class com.anitha.offsitefinal.HelpActivity { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:120
+-keep class com.anitha.offsitefinal.HomeActivityMenu { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:44
+-keep class com.anitha.offsitefinal.LogOutActivity { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:86
+-keep class com.anitha.offsitefinal.MainActivity { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:69
+-keep class com.anitha.offsitefinal.MapaClientActivity { <init>(); }
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:97
 -keep class com.anitha.offsitefinal.Report { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:151
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:158
 -keep class com.anitha.offsitefinal.ScannedBarcodeActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:67
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:74
 -keep class com.anitha.offsitefinal.ScheduleVisits { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:93
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:100
 -keep class com.anitha.offsitefinal.ScheduleVisits2 { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:48
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:55
 -keep class com.anitha.offsitefinal.SendFeedBack { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:124
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:131
 -keep class com.anitha.offsitefinal.Tab_Main { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:175
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:182
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:163
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:170
 -keep class com.razorpay.CheckoutActivity { <init>(); }
-# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:157
+# Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant_run_merged_manifests\debug\AndroidManifest.xml:164
 -keep class com.razorpay.RzpTokenReceiver { <init>(); }
 # Referenced at C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\src\main\res\layout\activity_log_out.xml:2
 -keep class android.support.constraint.ConstraintLayout { <init>(...); }

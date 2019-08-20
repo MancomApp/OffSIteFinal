@@ -6,34 +6,40 @@
     density="hdpi"
     format="10"
     plugin-version="3.4.0"
-    timestamp="1566027859182"
+    timestamp="1566210804887"
     token="-8191459581297534327"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="7201" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2929" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1997" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -42,19 +48,13 @@
         location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
@@ -62,19 +62,25 @@
 
     <build
         build-mode="FULL"
-        timestamp="1566027859182"
+        timestamp="1566210804887"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -83,19 +89,13 @@
             location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\Yathashree\Desktop\17-08-2019\2-08-2019 Mancon\OffSIteFinal\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
